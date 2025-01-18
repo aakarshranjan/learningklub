@@ -1,0 +1,41 @@
+.container {
+  width: 80vw;
+  margin: 0 10vw;
+  box-shadow: -1px -1px 10px lightblue, inset 1px 1px 10px lightblue;
+}
+
+.desc {
+  font-size: small;
+  padding-left: 10vw;
+  width: 75%;
+}
+
+.extraYSpace {
+  height: 1vw;
+}
+
+.heading {
+  padding: 5vh 0 0 10vw;
+}
+
+.stack {
+  padding: 5vh 10vw 0 10vw;
+}
+
+.detail {
+  width: 80vw;
+  margin: 0 10vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.longDescContainer {
+  //   width: 60%;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+}
