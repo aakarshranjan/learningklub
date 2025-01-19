@@ -11,14 +11,7 @@ interface OwnProps {
 
 function DescriptionCard({ title, desc }: OwnProps) {
   return (
-    <Box
-      sx={{
-        width: "100%",
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fill, minmax(min(200px, 100%), 1fr))",
-        gap: 2,
-      }}
-    >
+    <Box>
       <Card>
         <CardContent>
           <Typography variant="subtitle1" component="div">

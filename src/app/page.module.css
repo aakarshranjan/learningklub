@@ -163,8 +163,3 @@ a.secondary {
     filter: invert();
   }
 }
-
-.sticky {
-  position: fixed;
-  top: 0;
-}
